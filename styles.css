@@ -30,7 +30,7 @@ body {
 
 .masthead {
   display: grid;
-  grid-template-columns: 8.5rem 1fr;
+  grid-template-columns: 10rem 1fr;
   gap: 1.6rem;
   align-items: start;
   padding-bottom: 2rem;
@@ -40,8 +40,8 @@ body {
 }
 
 .portrait {
-  width: 8.5rem;
-  height: 8.5rem;
+  width: 10rem;
+  height: 10rem;
   border-radius: 50%;
   overflow: hidden;
   background: #e7dfd2;
@@ -54,6 +54,7 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center 18%;
   display: block;
 }
 
